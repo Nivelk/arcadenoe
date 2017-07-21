@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="br">
-
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="pt-br"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-
-        <title>Clinica Veterinária Itaim Paulista | Arca de Noé</title>
-
-        <!-- Bootstrap core CSS -->
-        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom fonts for this template -->
-        <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!--CSS CDN Bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
+	<!--google-->
+		<link rel="canonical" href="http://www.arcadenoevet.com.br/"/>
+		<link rel="alternate" hreflang="pt-br" href="http://www.arcadenoevet.com.br/"/>
+	<!--Jquery CDN Bootstrap-->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!--SEO-->
+		<meta name="author" content="Nivelk Agência digital"/>
+		<meta name="classification" content="Clínica veterinária"/>
+		<meta name="title" content="Clinica Veterinária Itaim Paulista | Arca de Noé"/>
+		<meta name="description" content=""/>
+		<meta name="URL" content="http://www.arcadenoevet.com.br/"/>
+		<meta name="language" content="pt-br"/>
+	<!--Rede social: Facebook / open graph-->
+		<meta property="og:locale" content="pt_BR"/>
+        <meta property="og:url" content="http://www.arcadenoevet.com.br/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Clinica Veterinária Itaim Paulista | Arca de Noé"/>
+        <meta property="og:image" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:site_name" content="Clinica Veterinária Arca de Noé Itaim Paulista "/>
+        <meta property="article:author" content="https://www.facebook.com/nivelk.com.br/"/>
+        <meta property="article:publisher" content=""/>
+        <meta property="fb:admins" content=""/>
+	<!--ferramentas google-->
+    <!-- Custom fonts for this template -->
+        <link href="/css/componentes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-        <!-- Plugin CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet" type='text/css'>
+    <!-- Plugin CSS -->
         <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <link href="/css/creative.min.css" rel="stylesheet">
-
+    <!-- style arca de Noe -->
+        <link href="/css/creative.css" rel="stylesheet">
+        
+        <title>Clinica Veterinária Itaim Paulista | Arca de Noé</title>
+        
         <!-- Temporary navbar container fix -->
         <style>
         .navbar-toggler {
@@ -47,37 +70,52 @@
         <div class="container">
             <a class="navbar-brand" href="#page-top">
                 <svg style="height:70px;">
-                    <path class="st0" d="M14.7,65.2c-5-8.3-9.3-16.5-12.2-25.3c-1.1-3.5-0.4-4.9,2.9-6.7c7.3-3.9,14.5-7.9,21.8-11.7
-                        c3.5-1.8,7-1.8,10.5,0c7.5,3.8,15.1,7.6,22.7,11.4c3.4,1.7,4.2,3.6,2.9,7.2c-2,5.7-4,11.3-6.1,17.4c-3.5-3.2-6.2-6.8-6.9-10.7
-                        c-1.2-6.4-5.1-10.7-9.2-15c-1.4-1.5-3.2-2.6-4.9-3.9c-0.3,0.3-0.6,0.5-0.9,0.8c0.3,1.2,0.4,2.6,1,3.5c1.4,2.2,0.7,3.6-1,5.1
-                        c-2.9,2.4-5.6,4.9-8.5,7.3c-1.3,1.1-1.5,2.3,0.1,3c2,0.8,4.1,1.4,6.2,1.6c3.5,0.3,4.5,1.1,4.7,4.6c0.2,3.8,0.1,7.4-1.9,10.9
-                        c-0.7,1.3-0.5,3.1-0.7,4.6c-6.5,1.7-8.2,1-9-4.4c0.7-0.3,1.8-0.5,2.2-1.1c0.6-0.8,1.2-2,1.1-3c-0.4-2.5-1.2-4.9-2-7.3
-                        c-0.5-1.8-2.2-2-4-1.3c-5.4,2.1-7.5,6.2-7.8,11.7C15.6,64.1,15.3,64.4,14.7,65.2z"/>
-                    <path class="st0" d="M19,23.8c-1.4-2.7-2.6-4.9-3.9-7.4c5.1-3.1,9.9-6.2,14.9-8.9c1.1-0.6,3.2-0.4,4.5,0.3c4.9,2.6,9.6,5.5,14.2,8.4
-                        c0.5,0.3,0.7,1.5,0.5,2.1c-0.5,1.6-1.3,3.1-2.2,5c-3-1.2-6.2-2.2-9.1-3.7c-3.8-1.9-7.3-1.9-10.9,0.3C24.6,21.4,21.9,22.4,19,23.8z"/>
-                    <path class="st0" d="M56.2,18.2c-3.2-1.8-6.4-3.6-9.6-5.4c-4.3-2.4-8.5-4.9-12.8-7.2c-0.9-0.5-2.5-0.4-3.3,0.1
-                        c-7.2,4.1-14.4,8.4-21.6,12.7c-0.2-0.2-0.4-0.3-0.7-0.5c0.4-0.6,0.6-1.5,1.2-1.9c7.1-4.3,14.3-8.6,21.5-12.9c0.6-0.3,1.7-0.3,2.4,0
-                        c7.5,4.2,15,8.6,22.5,12.9c0.5,0.3,0.8,0.9,1.1,1.3C56.7,17.6,56.5,17.9,56.2,18.2z"/>
+                    <text transform="matrix(1 0 0 1 76.2635 39.9874)" class="st0" style="font-family:Muli;font-size:26.2079px">Arca de Noé</text>
+                    <text transform="matrix(1 0 0 1 82.026 56.1799)" class="st2">CLÍNICA VETERINÁRIA</text>
+                    <g>
+                        <path class="st0" d="M2,35.2c0,0,0.1,0,0.1,0c5.4-4,11.5-6.8,17.4-9.8c4-2,8.1-3.9,12.3-5.4c0.1,0,0.2-0.1,0.4-0.1
+                            c2.1-0.9,4.2-0.8,6.4,0c5.4,2,10.6,4.4,15.7,6.9c4.3,2.2,8.6,4.3,12.6,7c0.5,0.3,0.9,0.7,1.4,1c0.5,0.3,0.6,0.7,0.4,1.2
+                            c-1,2.8-1.8,5.6-2.9,8.4c-1.7,4.3-3.5,8.6-5.3,12.8c-0.1,0.2-0.2,0.4-0.4,0.8c-0.3-0.4-0.6-0.7-0.8-1c-2.8-4.2-4.8-8.7-6.3-13.4
+                            c-0.9-2.7-2.3-5-4.3-7.1c-2.5-2.6-4.8-5.5-7.1-8.3c-0.4-0.5-0.7-1-1.6-0.9c-0.1,0.6-0.1,1.2-0.2,1.9c-1-0.5-1.1-2-2.6-2.1
+                            c0.2,1,0.2,1.8,0.5,2.7c0.3,1.1,0.8,2.1,1.2,3.2c0.5,1.4,0.3,1.9-1,2.7c-0.8,0.5-1.6,1.1-2.2,1.7c-0.5,0.5-1,1.2-1.3,1.9
+                            c-0.3,0.7-0.7,1.3-1.4,1.7c-1.6,0.9-3.1,1.8-4.7,2.8c-0.6,0.4-1.1,0.8-1.6,1.2c-0.5,0.4-0.6,0.8-0.2,1.4c0.3,0.4,0.7,0.8,1.2,1.1
+                            c2,1.2,4.1,1.6,6.4,1.4c0.6-0.1,1.2-0.1,1.8-0.1c2.3,0.1,3.5,1.1,3.8,3.3c0.4,3.2,0.3,6.4-0.5,9.5c-0.2,0.6-0.4,1.3-0.8,1.8
+                            c-0.9,1.2-1.1,2.5-1,3.9c0,0.9,0.1,1.7,0.2,2.6c-2.9,0-5.8,0-8.7,0c-1.2-0.4-1.1-0.4-1.2-1.7c-0.1-0.8-0.3-1.6-0.5-2.4
+                            c-0.1-0.4-0.2-0.7-0.4-1.3c1.8,0.7,2.8-0.5,4-1.4c0,0,0,0,0.1,0c0.8-0.6,0.9-1,0.5-2c-0.3-0.6-0.5-1.3-0.6-2
+                            c-0.2-1.4-0.3-2.8-1.5-3.7c-0.7-0.5-0.6-1.1-0.4-1.7c0.2-0.4,0.5-0.7,0.7-1.1c0.2-0.3,0.4-0.7,0.6-1.1c-1.4-0.3-1.9,0.9-2.9,1.3
+                            c0-0.3,0.1-0.5,0.1-0.6c0-0.4,0-1-0.2-1.2c-0.3-0.2-0.9-0.1-1.3,0c-0.7,0.3-1.3,0.8-2,1.2c-0.6,0.4-1.3,0.8-2,0.9
+                            c-1.3,0.3-2.3,0.9-3.1,2c-0.9,1.2-1.4,2.5-1.8,3.9c-0.4,1.5-0.8,3.1-1.3,4.6c-0.1,0.5-0.4,0.9-0.6,1.3c-0.1,0.1-0.2,0.1-0.3,0.2
+                            c-0.3-0.4-0.7-0.8-0.9-1.3c-0.7-1-1.4-2-1.9-3.1c-3.1-6-5.6-12.3-7.8-18.7c-0.7-2.1-1.4-4.2-2.1-6.2C2,35.5,2,35.4,2,35.2z"/>
+                        <path class="st0" d="M16.9,15.8c0.8-0.5,1.4-0.9,2.1-1.2c5.2-3,10.4-5.9,15.7-8.9c0.6-0.3,1-0.4,1.6,0C41.8,8.8,47.4,12,53,15.2
+                            c0.3,0.2,0.6,0.4,1,0.6c-0.1,0.3-0.3,0.6-0.4,0.9c-0.9,2-1.7,4.1-2.6,6.1c-0.2,0.4-0.4,0.5-0.8,0.3c-2.1-0.9-4.2-1.9-6.3-2.8
+                            c-1.7-0.7-3.4-1.4-5.2-2c-2.3-0.9-4.5-0.8-6.8,0.1c-3.4,1.4-6.9,2.8-10.3,4.2c-0.5,0.2-1.1,0.4-1.6,0.6
+                            C19,20.8,17.9,18.3,16.9,15.8z"/>
+                        <path class="st0" d="M10,17.9c-0.2-0.3-0.3-0.6-0.4-0.8C9,15.9,9,15.9,10.1,15.3c4.1-2.3,8.1-4.6,12.2-6.9c4-2.3,8-4.5,12-6.8
+                            c0.8-0.4,1.4-0.4,2.2,0c7.9,4.5,15.9,9,23.8,13.5c0.5,0.3,0.9,0.6,1.5,0.9c-0.4,0.6-0.7,1.2-1,1.8c-0.4-0.2-0.8-0.4-1.1-0.5
+                            C53,13.6,46.4,9.8,39.8,6.1c-1.2-0.7-2.4-1.3-3.6-2c-0.6-0.3-1-0.3-1.5,0c-4,2.3-8,4.5-12,6.8c-3.7,2.1-7.4,4.2-11.1,6.3
+                            C11,17.4,10.5,17.6,10,17.9z"/>
+                    </g>
                 </svg>
             </a>
             <div class="row">
-                <div class="col st0" style="border:solid 1px red;">
+                <div class="col st0" >
+                   <i class="fa fa-phone sr-contact"></i>
                     <span>(11)2561-1656</span>
                 </div>
             </div>
-            <div class="collapse navbar-collapse" id="navbarExample" style="border:solid 1px red;">
+            <div class="collapse navbar-collapse col" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Serviços</a>
+                        <a class="nav-link" href="#servicos">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Galeria</a>
+                        <a class="nav-link" href="#galeria">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +135,7 @@
         </div>
     </header>
 
-    <section class="bg-info" id="about">
+    <section class="bg-info" id="sobre">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -110,7 +148,7 @@
         </div>
     </section>
 
-    <section id="services">
+    <section id="servicos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -154,7 +192,7 @@
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <section class="no-padding" id="galeria">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -253,7 +291,7 @@
 
     
 
-    <section id="contact">
+    <section id="contato">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -274,24 +312,26 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">contato@arcadenoevet.com.br</a></p>
                 </div>
+                <div class="col-lg-12 text-center">
+                     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script>
+                    <center>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </center>    
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
-    <script src="/vendor/tether/tether.min.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-
+        <footer>
+            &copy;&nbsp;Clínica Veterinária Arca de Noé Itaim paulista.Todos os direitos reservados.    
+        </footer>    
     <!-- Plugin JavaScript -->
-    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>        
+    <script src="/js/componentes/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/js/componentes/scrollreveal/scrollreveal.min.js"></script>
+    <script src="/js/componentes/magnific-popup/jquery.magnific-popup.min.js"></script>        
 
     <!-- Custom scripts for this template -->
     <script src="/js/creative.js"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script> 
-<center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></center>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
 </body>
 
 </html>

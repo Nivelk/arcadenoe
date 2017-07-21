@@ -9,7 +9,7 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Muli','Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
   max-width: 50px;
@@ -83,7 +83,7 @@ body {
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Muli','Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
   transition: all .2s; }
@@ -91,7 +91,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: 'Muli','Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #f05f40; }
   #mainNav .navbar-toggle {
