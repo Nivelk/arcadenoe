@@ -1,0 +1,30 @@
+//COR
+$CorPreto:#000000;
+$CorBranco:#FFFFFF;
+$CorAzulEscuro:#052027;
+$CorAzulEscuro1:#184158;
+$CorAzulClaro:#22C9E7;
+$CorAzulClaro2:#0D6575;
+$CorAzulClaro3:#3C8DBC;
+$CorAzulClaro4:#367FA9;
+$CorAzulClaro5:#0F5F73;
+$CorAzulClaro6:#296E98;
+$CorAmarelo:#FFFF00;
+$CorRosa:#FF0066;
+$CorRosaEscuro:#F5203E;
+$CorRosaEscuro1:#A0071F;
+$CorCinza:#CCCCCC;
+$CorCinzaClaro:#F4F4F4;
+$CorCinzaEscuro:#262626;
+$CorRoxo:#8712fa;
+$CorVerdeClaro:#44D08C;
+$CorVerdeEscuro:#259460;
+$CorLaraja:#E06023;
+$CorLarajaEscuro:#943E14;
+$CorVinho:#B3474F;
+$CorVinhoEscuro:#943A41;
+//FADE-OUT
+    $Opacity:0.5;
+    $CORCINZA:fade-out($CorCinza,$Opacity);
+    $CORROXO:fade-out($CorRoxo,$Opacity);
+    $CORROSA:fade-out($CorRosa,$Opacity);

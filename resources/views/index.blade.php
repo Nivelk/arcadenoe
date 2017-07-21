@@ -45,15 +45,33 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-		(11)2561-1656
-            <a class="navbar-brand" href="#page-top"><img src="img/Logotipo.png"></a>
-            <div class="collapse navbar-collapse" id="navbarExample">
+            <a class="navbar-brand" href="#page-top">
+                <svg style="height:70px;">
+                    <path class="st0" d="M14.7,65.2c-5-8.3-9.3-16.5-12.2-25.3c-1.1-3.5-0.4-4.9,2.9-6.7c7.3-3.9,14.5-7.9,21.8-11.7
+                        c3.5-1.8,7-1.8,10.5,0c7.5,3.8,15.1,7.6,22.7,11.4c3.4,1.7,4.2,3.6,2.9,7.2c-2,5.7-4,11.3-6.1,17.4c-3.5-3.2-6.2-6.8-6.9-10.7
+                        c-1.2-6.4-5.1-10.7-9.2-15c-1.4-1.5-3.2-2.6-4.9-3.9c-0.3,0.3-0.6,0.5-0.9,0.8c0.3,1.2,0.4,2.6,1,3.5c1.4,2.2,0.7,3.6-1,5.1
+                        c-2.9,2.4-5.6,4.9-8.5,7.3c-1.3,1.1-1.5,2.3,0.1,3c2,0.8,4.1,1.4,6.2,1.6c3.5,0.3,4.5,1.1,4.7,4.6c0.2,3.8,0.1,7.4-1.9,10.9
+                        c-0.7,1.3-0.5,3.1-0.7,4.6c-6.5,1.7-8.2,1-9-4.4c0.7-0.3,1.8-0.5,2.2-1.1c0.6-0.8,1.2-2,1.1-3c-0.4-2.5-1.2-4.9-2-7.3
+                        c-0.5-1.8-2.2-2-4-1.3c-5.4,2.1-7.5,6.2-7.8,11.7C15.6,64.1,15.3,64.4,14.7,65.2z"/>
+                    <path class="st0" d="M19,23.8c-1.4-2.7-2.6-4.9-3.9-7.4c5.1-3.1,9.9-6.2,14.9-8.9c1.1-0.6,3.2-0.4,4.5,0.3c4.9,2.6,9.6,5.5,14.2,8.4
+                        c0.5,0.3,0.7,1.5,0.5,2.1c-0.5,1.6-1.3,3.1-2.2,5c-3-1.2-6.2-2.2-9.1-3.7c-3.8-1.9-7.3-1.9-10.9,0.3C24.6,21.4,21.9,22.4,19,23.8z"/>
+                    <path class="st0" d="M56.2,18.2c-3.2-1.8-6.4-3.6-9.6-5.4c-4.3-2.4-8.5-4.9-12.8-7.2c-0.9-0.5-2.5-0.4-3.3,0.1
+                        c-7.2,4.1-14.4,8.4-21.6,12.7c-0.2-0.2-0.4-0.3-0.7-0.5c0.4-0.6,0.6-1.5,1.2-1.9c7.1-4.3,14.3-8.6,21.5-12.9c0.6-0.3,1.7-0.3,2.4,0
+                        c7.5,4.2,15,8.6,22.5,12.9c0.5,0.3,0.8,0.9,1.1,1.3C56.7,17.6,56.5,17.9,56.2,18.2z"/>
+                </svg>
+            </a>
+            <div class="row">
+                <div class="col st0" style="border:solid 1px red;">
+                    <span>(11)2561-1656</span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarExample" style="border:solid 1px red;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Serviços</a>
+                        <a class="nav-link" href="">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Galeria</a>
@@ -241,6 +259,11 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading">Entre em Contato!</h2>
                     <hr class="primary">
+                        <form action="#" method="post" class="from-group">
+                            {{csrf_field()}}
+                            <label for="nomeCompleto" class="">Nome completo:</label>
+                            <input class="form-control form-control-lg" id="nomeCompleto"/>   
+                        </form>  
                     <p>Rua Monte Cambarela, 101 Itaim Paulista - São Paulo - SP</p>
                 </div>
                 <div class="col-lg-4 offset-lg-2 text-center">
@@ -266,7 +289,7 @@
     <script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>        
 
     <!-- Custom scripts for this template -->
-    <script src="/js/creative.min.js"></script>
+    <script src="/js/creative.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script> 
 <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></center>
 </body>

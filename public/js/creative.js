@@ -1,6 +1,6 @@
 (function($) {
     "use strict"; // Start of use strict
-
+    $(".st0").css({"fill":"#FFFFFF","color":"#FFFFFF"});
     // Smooth scrolling using jQuery easing
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -30,8 +30,10 @@
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $(".st0").css({"fill":"#000066","color":"#000066"});
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $(".st0").css({"fill":"#FFFFFF","color":"#FFFFFF"});
         }
     });
 
