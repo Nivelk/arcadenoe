@@ -1,7 +1,6 @@
 (function($) {
     "use strict"; // Start of use strict
-    $(".st0").css({"fill":"#FFFFFF","color":"#FFFFFF"});
-    $(".st2").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});
+    $(".st1").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});
     // Smooth scrolling using jQuery easing
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -31,12 +30,11 @@
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
-            $(".st0").css({"fill":"#000066","color":"#000066"});
+            $(".st0").css({"fill":"#000066","color":"#000066","font-size":"12px"});
             $(".st2").css({"font-size":"12px","color":"#111111","fill":"#111111"});
         } else {
             $("#mainNav").removeClass("navbar-shrink");
-            $(".st0").css({"fill":"#FFFFFF","color":"#FFFFFF"});
-            $(".st2").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});
+            $(".st1").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});
         }
     });
 
