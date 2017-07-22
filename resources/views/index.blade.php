@@ -160,11 +160,9 @@
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Clinica Veterinária</h1>
+                <h1 id="homeHeading">Clínica Veterinária</h1>
                 <hr>
-                <p> 
-				Clinica Veterinária Arca de Noé 24 horas
-				Temos tudo o que seu pet precisa</p>
+                <p>Clínica Veterinária Arca de Noé 24 horas Temos tudo o que seu pet precisa</p>
                 <a class="btn btn-info btn-xl" href="#sobre">Explore nosso Site</a>
             </div>
         </div>
@@ -335,23 +333,27 @@
                         <form action="#" method="post" class="from-group">
                             {{csrf_field()}}
                             <label for="nomeCompleto" class="">Nome completo:</label>
-                            <input class="form-control form-control-lg" id="nomeCompleto"/>   
+                            <input class="form-control form-control-lg" id="nomeCompleto"/> 
+                            <label for="emailMeng" class="">Email:</label>
+                            <input class="form-control form-control-lg" id="emailMeng"/> 
+                            <label for="assuntoMeng" class="">Assunto:</label>
+                            <input class="form-control form-control-lg" id="assuntoMeng"/>
+                            <label for="mensagenMeng" class="">Mensagen:</label>
+                            <textarea class="form-control form-control-lg" id="mensagenMeng"></textarea>
+                                <br>
+                            <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
                         </form>  
                     <p>Rua Monte Cambarela, 101 Itaim Paulista - São Paulo - SP</p>
                 </div>
-                <div class="col-lg-4 offset-lg-2 text-center">
+                <div class="col-lg-5 offset-lg-2 text-center">
+                     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
+                </div>
+                <div class="col-lg-5 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>(11) 2561-2072</p>
-                </div>
-                <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">contato@arcadenoevet.com.br</a></p>
-                </div>
-                <div class="col-lg-12 text-center">
-                     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script>
-                    <center>
-                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                    </center>    
                 </div>
             </div>
         </div>
