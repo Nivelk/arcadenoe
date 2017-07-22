@@ -331,8 +331,8 @@
                             <input class="form-control form-control-lg" id="emailMeng" type="email" name="email"/> 
                             <label for="assuntoMeng" class="">Assunto:</label>
                             <input class="form-control form-control-lg" id="assuntoMeng" type="text" name="assunto"/>
-                            <label for="mensagenMeng" class="">Mensagen:</label>
-                            <textarea class="form-control form-control-lg" id="mensagenMeng" name="mensagen"></textarea>
+                            <label for="mensagenMeng" class="">Mensagem:</label>
+                            <textarea class="form-control form-control-lg" id="mensagenMeng" name="mensagem"></textarea>
                                 <br>
                             <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
                         </form>  
