@@ -33,20 +33,12 @@
         <meta property="article:author" content="https://www.facebook.com/nivelk.com.br/"/>
         <meta property="article:publisher" content=""/>
         <meta property="fb:admins" content=""/>
-	<!--ferramentas google-->
-        
-    <!-- Custom fonts for this template -->
-        <link href="/css/componentes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet" type='text/css'>
+	<!--ferramentas google-->        
     <!-- Plugin CSS -->
-        <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <!-- style arca de Noe -->
-        <link href="/css/creative.css" rel="stylesheet">
-        
+        <link href="{{url('/css/componentes/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{url('/js/componentes/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
+        <link href="{{url('/css/creative.css')}}" rel="stylesheet">
         <title>Clinica Veterinária Itaim Paulista | Arca de Noé</title>
-        
         <!-- Temporary navbar container fix -->
         <style>
         .navbar-toggler {
@@ -69,8 +61,8 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
-            <a class="navbar-brand" href="#page-top">
-                <svg style="height:70px;">
+            <a class="navbar-brand" href="{{route('home')}}">
+                <svg>
                     <text transform="matrix(1 0 0 1 85.1373 56.18)" class="st0 st1">CLÍNICA VETERINÁRIA</text>
                     <g>
                         <path class="st0 st1" d="M2,35.2c0,0,0.1,0,0.1,0c5.4-4,11.5-6.8,17.4-9.8c4-2,8.1-3.9,12.3-5.4c0.1,0,0.2-0.1,0.4-0.1
@@ -132,25 +124,27 @@
                     </g>
                 </svg>
             </a>
-            <div class="row">
                 <div class="col st0 st1" >
                    <i class="fa fa-phone sr-contact"></i>
                     <span>(11)2561-1656</span>
                 </div>
-            </div>
-            <div class="collapse navbar-collapse col" id="navbarExample">
+                <div class="col st0 st1">
+                    <i class="fa fa-envelope-o sr-contact"></i>
+                    <span>contato@arcadenoevet.com.br</span>
+                </div>
+            <div class="collapse navbar-collapse " id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link" href="{{route('sobre')}}">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="{{route('servicos')}}">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galeria</a>
+                        <a class="nav-link" href="{{route('galeria')}}">Galeria</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link" href="{{route('contato')}}">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -163,7 +157,7 @@
                 <h1 id="homeHeading">Clínica Veterinária</h1>
                 <hr>
                 <p>Clínica Veterinária Arca de Noé 24 horas Temos tudo o que seu pet precisa</p>
-                <a class="btn btn-info btn-xl" href="#sobre">Explore nosso Site</a>
+                <a class="btn btn-info btn-xl" href="{{route('sobre')}}">Explore nosso Site</a>
             </div>
         </div>
     </header>
@@ -175,7 +169,7 @@
                     <h2 class="section-heading text-white">Sobre Nós</h2>
                     <hr class="light">
                     <p class="text-faded">Clínica veterinária Arca de Noé, situada na Rua Monte Camberella, 101 no bairro do Itaim Paulista.Sempre com o intuito de demonstrar amor, carinho ao seu bichinho de estimação, oferecemos serviços de alta qualidade</p>
-                    <a class="btn btn-default btn-xl sr-button" href="#servicos">Nossos Trabalhos</a>
+                    <a class="btn btn-default btn-xl sr-button" href="{{route('servicos')}}">Nossos Trabalhos</a>
                 </div>
             </div>
         </div>
@@ -191,32 +185,31 @@
             </div>
         </div>
         <div class="container">
-		
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <div class="sr-icons"><img src="img/pata.png"></div>
+                        <div class="sr-icons"><img src="{{url('/img/pata.png')}}"></div>
                         <h3>Ortopedia</h3>
                         <p class="text-muted">Conteudo relacionado a ortopedia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <div class="sr-icons"><img src="img/oncologia.png"></div>
+                        <div class="sr-icons"><img src="{{url('/img/oncologia.png')}}"></div>
                         <h3>Oncologia</h3>
                         <p class="text-muted">Conteudo relacionado a oncologia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <div class="sr-icons"><img src="img/dente.png"></div>
+                        <div class="sr-icons"><img src="{{url('/img/dente.png')}}"></div>
                         <h3>Odontologia</h3>
                         <p class="text-muted">Conteudo relacionado a ondontologia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <div class="sr-icons"><img src="img/cardiologia.png"><div>
+                        <div class="sr-icons"><img src="{{url('/img/cardiologia.png')}}"></div>
                         <h3>Cardiologia</h3>
                         <p class="text-muted">Conteudo relacionado a Cardiologia texto curto mas relevante.</p>
                     </div>
@@ -229,8 +222,8 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/1.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/1.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -244,8 +237,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/2.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/2.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -259,8 +252,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/3.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/3.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -274,8 +267,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/4.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/4.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -289,8 +282,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/5.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/5.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -304,8 +297,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+                    <a class="portfolio-box" href="{{url('/img/portfolio/fullsize/6.jpg')}}">
+                        <img class="img-fluid" src="{{url('/img/portfolio/thumbnails/6.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -330,16 +323,16 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading">Entre em Contato!</h2>
                     <hr class="primary">
-                        <form action="#" method="post" class="from-group">
+                        <form action="#" method="POST" class="from-group">
                             {{csrf_field()}}
                             <label for="nomeCompleto" class="">Nome completo:</label>
-                            <input class="form-control form-control-lg" id="nomeCompleto"/> 
+                            <input class="form-control form-control-lg" id="nomeCompleto" type="text" name="nomecompleto"/> 
                             <label for="emailMeng" class="">Email:</label>
-                            <input class="form-control form-control-lg" id="emailMeng"/> 
+                            <input class="form-control form-control-lg" id="emailMeng" type="email" name="email"/> 
                             <label for="assuntoMeng" class="">Assunto:</label>
-                            <input class="form-control form-control-lg" id="assuntoMeng"/>
+                            <input class="form-control form-control-lg" id="assuntoMeng" type="text" name="assunto"/>
                             <label for="mensagenMeng" class="">Mensagen:</label>
-                            <textarea class="form-control form-control-lg" id="mensagenMeng"></textarea>
+                            <textarea class="form-control form-control-lg" id="mensagenMeng" name="mensagen"></textarea>
                                 <br>
                             <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
                         </form>  
@@ -368,13 +361,11 @@
             </div>
         </footer>    
     <!-- Plugin JavaScript -->
-    <script src="/js/componentes/jquery-easing/jquery.easing.min.js"></script>
-    <script src="/js/componentes/scrollreveal/scrollreveal.min.js"></script>
-    <script src="/js/componentes/magnific-popup/jquery.magnific-popup.min.js"></script>        
+    <script src="{{url('/js/componentes/jquery-easing/jquery.easing.min.js')}}"></script>
+    <script src="{{url('/js/componentes/scrollreveal/scrollreveal.min.js')}}"></script>
+    <script src="{{url('/js/componentes/magnific-popup/jquery.magnific-popup.min.js')}}"></script>        
+    <script src="{{url('/js/creative.js')}}"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="/js/creative.js"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools --> 
 </body>
 
 </html>

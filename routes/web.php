@@ -14,6 +14,28 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/#services', function () {
-    return view('index');
+
+Route::post('/',function(){
+    return Request::all();
 });
+
+Route::get('/#page-top',['as' => 'home', function(){
+     return view('index');
+}]);
+
+Route::get('/#sobre',['as' => 'sobre', function(){
+     return view('index');
+}]);
+
+Route::get('/#servicos',['as' => 'servicos', function(){
+     return view('index');
+}]);
+
+Route::get('/#galeria',['as' => 'galeria', function(){
+     return view('index');
+}]);
+
+Route::get('/#contato', ['as' => 'contato', function(){
+     return view('index');
+}]);
+
