@@ -127,8 +127,16 @@
                     <span>(11) 2561-1656</span>
                 </div>
                 <div class="col st0 st1">
-                    <i class="fa fa-envelope-o sr-contact"></i>
-                    <span>contato@arcadenoevet.com.br</span>
+                    <i class="fa fa-phone sr-contact"></i>
+                    <span>(11) 98107-0544</span>
+                </div>
+                <div class="col st0 st1">
+                    <i class="fa fa-phone sr-contact"></i>
+                    <span>(11) 98107-0647</span>
+                </div>
+                <div class="col st0 st1">
+                    <i class="fa fa-clock-o sr-contact"></i>
+                    <span>Atendimento 24h </span>
                 </div>
             <div class="collapse navbar-collapse " id="navbarExample">
                 <ul class="navbar-nav ml-auto">
@@ -155,6 +163,7 @@
                 <h1 id="homeHeading">Clínica Veterinária Arca de Nóe</h1>
                 <hr>
                 <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
+                <p>A Arca de Noé é uma clínica completa, uma referência em cuidados veterinários ao seu animal de estimação!</p>
                 <a class="btn btn-info btn-xl" href="{{route('sobre')}}">Explore nosso Site</a>
             </div>
         </div>
@@ -183,7 +192,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Alguns de nossos serviços</h2>
+                    <h2 class="section-heading">Nosso diferencial</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -330,6 +339,10 @@
                             <input class="form-control form-control-lg" id="nomeCompleto" type="text" name="nomecompleto"/> 
                             <label for="emailMeng" class="">Email:</label>
                             <input class="form-control form-control-lg" id="emailMeng" type="email" name="email"/> 
+                            <label for="telMeng" class="">Telefone:</label>
+                            <input class="form-control form-control-lg" id="telMeng" type="text" name="telefone"/> 
+                            <label for="endMeng" class="">Endereço:</label>
+                            <input class="form-control form-control-lg" id="endMeng" type="text" name="endereco"/> 
                             <label for="assuntoMeng" class="">Assunto:</label>
                             <input class="form-control form-control-lg" id="assuntoMeng" type="text" name="assunto"/>
                             <label for="mensagenMeng" class="">Mensagem:</label>
@@ -337,18 +350,27 @@
                                 <br>
                             <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
                         </form>
-                        
+                        <br>
                     <p>Rua Monte Cambarela, 101 Itaim Paulista - São Paulo - SP</p>
                 </div>
-                <div class="col-lg-5 offset-lg-2 text-center">
+                <div class="col-7">
                      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script>
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
                 </div>
-                <div class="col-lg-5 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>(11) 2561-2072</p>
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">contato@arcadenoevet.com.br</a></p>
+                <div class="col-4">
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 2561-2072</span>
+                    <br>
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 98107-0544 (tim)</span>
+                    <br>
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 98107-0647 (tim)</span>
+                    <br>
+                    <i class="fa fa-whatsapp fa-2x sr-contact"></i><span>Respondemos whats-up!</span>
+                    <br>
+                    
+                    <p>
+                        <i class="fa fa-envelope-o fa-2x sr-contact"></i>
+                        <a href="mailto:your-email@your-domain.com">contato@arcadenoevet.com.br</a>
+                    </p>
                 </div>
             </div>
         </div>
