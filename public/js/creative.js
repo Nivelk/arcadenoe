@@ -31,7 +31,6 @@
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
             $(".st0").css({"fill":"#000066","color":"#000066","font-size":"12px"});
-            $(".st2").css({"font-size":"12px","color":"#111111","fill":"#111111"});
         } else {
             $("#mainNav").removeClass("navbar-shrink");
             $(".st1").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});

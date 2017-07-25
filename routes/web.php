@@ -15,9 +15,13 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::post('/',function(){
+Route::get('/contato',['as' => 'contato', function(){
+    return view('contato');
+}]);
+
+Route::post('/contato', ['as' => 'contato.send', function(){
     return Request::all();
-});
+}]);
 
 Route::get('/#page-top',['as' => 'home', function(){
      return view('index');

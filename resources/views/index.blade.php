@@ -6,15 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <!--CSS CDN Bootstrap-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
 	<!--google-->
 		<link rel="canonical" href="http://www.arcadenoevet.com.br/"/>
 		<link rel="alternate" hreflang="pt-br" href="http://www.arcadenoevet.com.br/"/>
-	<!--Jquery CDN Bootstrap-->
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<!--SEO-->
 		<meta name="author" content="Nivelk Agência digital"/>
 		<meta name="classification" content="Clínica veterinária"/>
@@ -33,13 +27,17 @@
         <meta property="article:author" content="https://www.facebook.com/nivelk.com.br/"/>
         <meta property="article:publisher" content=""/>
         <meta property="fb:admins" content=""/>
-	<!--ferramentas google-->        
+	<!--ferramentas google--> 
+    <!-- Bootstrap core CSS -->
+        <link href="/js/componentes/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+        <link href="/css/componentes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Plugin CSS -->
-        <link href="{{url('/css/componentes/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{url('/js/componentes/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
-        <link href="{{url('/css/creative.css')}}" rel="stylesheet">
+        <link href="/js/componentes/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+        <link href="/css/creative.css" rel="stylesheet">
         <title>Clinica Veterinária Itaim Paulista | Arca de Noé</title>
-        <!-- Temporary navbar container fix -->
+    <!-- Temporary navbar container fix -->
         <style>
         .navbar-toggler {
             z-index: 1;
@@ -126,7 +124,7 @@
             </a>
                 <div class="col st0 st1" >
                    <i class="fa fa-phone sr-contact"></i>
-                    <span>(11)2561-1656</span>
+                    <span>(11) 2561-1656</span>
                 </div>
                 <div class="col st0 st1">
                     <i class="fa fa-envelope-o sr-contact"></i>
@@ -135,7 +133,7 @@
             <div class="collapse navbar-collapse " id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('sobre')}}">Sobre</a>
+                        <a class="nav-link" href="{{route('sobre')}}">Sobre </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('servicos')}}">Serviços</a>
@@ -154,9 +152,9 @@
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Clínica Veterinária</h1>
+                <h1 id="homeHeading">Clínica Veterinária Arca de Nóe</h1>
                 <hr>
-                <p>Clínica Veterinária Arca de Noé 24 horas Temos tudo o que seu pet precisa</p>
+                <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
                 <a class="btn btn-info btn-xl" href="{{route('sobre')}}">Explore nosso Site</a>
             </div>
         </div>
@@ -168,7 +166,13 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading text-white">Sobre Nós</h2>
                     <hr class="light">
-                    <p class="text-faded">Clínica veterinária Arca de Noé, situada na Rua Monte Camberella, 101 no bairro do Itaim Paulista.Sempre com o intuito de demonstrar amor, carinho ao seu bichinho de estimação, oferecemos serviços de alta qualidade</p>
+                    <p class="text-faded">Agora, sob nova administração, a clínica veterinária Arca de Nóe, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade.</p>
+                    <p class="text-faded">Possuímos uma variedade de serviços na área de saude animal, visando sempre a evolução da medicina veterinária, melhorando cada dia mais a qualidade de vida dos animais e proporcionando bem estar ao proprietário.</p>
+                    <p class="text-faded">Nossos profissionais estão sempre a postos para cuidar e salvar seu bichinho em situações extremas como:</p>
+                    <strong>
+                        <p class="text-faded">Atropelamentos, Hemorragias, Intoxicações/Envenenamentos, Queimaduras e mordeduras, extensas, Vômitos Sucessivos, Convulsões, Desmaios, Queda de altura, Perda de apetite prolongado em filhotes, Distenção Abdominal, Dificuldades em urinar ou defecar (Obstruções), Dor intensa, Parto prolongado, Prostração severa.
+                        </p>
+                    </strong>
                     <a class="btn btn-default btn-xl sr-button" href="{{route('servicos')}}">Nossos Trabalhos</a>
                 </div>
             </div>
@@ -314,16 +318,13 @@
             </div>
         </div>
     </section>
-
-    
-
     <section id="contato">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading">Entre em Contato!</h2>
                     <hr class="primary">
-                        <form action="#" method="POST" class="from-group">
+                        <form action="{{route('contato.send')}}" method="POST" class="from-group">
                             {{csrf_field()}}
                             <label for="nomeCompleto" class="">Nome completo:</label>
                             <input class="form-control form-control-lg" id="nomeCompleto" type="text" name="nomecompleto"/> 
@@ -335,7 +336,8 @@
                             <textarea class="form-control form-control-lg" id="mensagenMeng" name="mensagem"></textarea>
                                 <br>
                             <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
-                        </form>  
+                        </form>
+                        
                     <p>Rua Monte Cambarela, 101 Itaim Paulista - São Paulo - SP</p>
                 </div>
                 <div class="col-lg-5 offset-lg-2 text-center">
@@ -359,13 +361,17 @@
                     </div>
                 </div>
             </div>
-        </footer>    
+        </footer>
+     <!-- Bootstrap core JavaScript -->
+    <script src="/js/componentes/jquery/jquery.min.js"></script>
+    <script src="/js/componentes/tether/tether.min.js"></script>
+    <script src="/js/componentes/bootstrap/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
-    <script src="{{url('/js/componentes/jquery-easing/jquery.easing.min.js')}}"></script>
-    <script src="{{url('/js/componentes/scrollreveal/scrollreveal.min.js')}}"></script>
-    <script src="{{url('/js/componentes/magnific-popup/jquery.magnific-popup.min.js')}}"></script>        
-    <script src="{{url('/js/creative.js')}}"></script>
-
+    <script src="/js/componentes/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/js/componentes/scrollreveal/scrollreveal.min.js"></script>
+    <script src="/js/componentes/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="/js/creative.js"></script>
 </body>
 
 </html>
