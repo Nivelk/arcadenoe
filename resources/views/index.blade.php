@@ -160,7 +160,7 @@
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Clínica Veterinária Arca de Nóe</h1>
+                <h1 id="homeHeading">Clínica Veterinária Arca de Noé</h1>
                 <hr>
                 <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
                 <p>A Arca de Noé é uma clínica completa, uma referência em cuidados veterinários ao seu animal de estimação!</p>
@@ -175,7 +175,7 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading text-white">Sobre Nós</h2>
                     <hr class="light">
-                    <p class="text-faded">Agora, sob nova administração, a clínica veterinária Arca de Nóe, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade.</p>
+                    <p class="text-faded">Agora, sob nova administração, a clínica veterinária Arca de Noé, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade.</p>
                     <p class="text-faded">Possuímos uma variedade de serviços na área de saude animal, visando sempre a evolução da medicina veterinária, melhorando cada dia mais a qualidade de vida dos animais e proporcionando bem estar ao proprietário.</p>
                     <p class="text-faded">Nossos profissionais estão sempre a postos para cuidar e salvar seu bichinho em situações extremas como:</p>
                     <strong>
