@@ -42,4 +42,6 @@ Route::get('/#galeria',['as' => 'galeria', function(){
 Route::get('/#contato', ['as' => 'contato', function(){
      return view('index');
 }]);
-
+Route::get('/resultados',['as' => 'resultados', function(){
+    return view('resultados');
+}]);

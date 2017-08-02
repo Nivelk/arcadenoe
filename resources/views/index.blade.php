@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Language" content="pt-br"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
 	<!--google-->
 		<link rel="canonical" href="http://www.arcadenoevet.com.br/"/>
 		<link rel="alternate" hreflang="pt-br" href="http://www.arcadenoevet.com.br/"/>
@@ -13,7 +11,7 @@
 		<meta name="author" content="Nivelk Agência digital"/>
 		<meta name="classification" content="Clínica veterinária"/>
 		<meta name="title" content="Clinica Veterinária Itaim Paulista | Arca de Noé"/>
-		<meta name="description" content=""/>
+		<meta name="description" content="Agora, sob nova administração, a clínica veterinária Arca de Noé, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade."/>
 		<meta name="URL" content="http://www.arcadenoevet.com.br/"/>
 		<meta name="language" content="pt-br"/>
 	<!--Rede social: Facebook / open graph-->
@@ -22,10 +20,10 @@
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Clinica Veterinária Itaim Paulista | Arca de Noé"/>
         <meta property="og:image" content=""/>
-        <meta property="og:description" content=""/>
+        <meta property="og:description" content="Agora, sob nova administração, a clínica veterinária Arca de Noé, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade."/>
         <meta property="og:site_name" content="Clinica Veterinária Arca de Noé Itaim Paulista "/>
         <meta property="article:author" content="https://www.facebook.com/nivelk.com.br/"/>
-        <meta property="article:publisher" content=""/>
+        <meta property="article:publisher" content="https://www.facebook.com/arcadenoevetitaimpaulista/"/>
         <meta property="fb:admins" content=""/>
 	<!--ferramentas google--> 
     <!-- Bootstrap core CSS -->
@@ -122,24 +120,14 @@
                     </g>
                 </svg>
             </a>
-                <div class="col st0 st1" >
-                   <i class="fa fa-phone sr-contact"></i>
-                    <span>(11) 2561-1656</span>
-                </div>
-                <div class="col st0 st1">
-                    <i class="fa fa-phone sr-contact"></i>
-                    <span>(11) 98107-0544</span>
-                </div>
-                <div class="col st0 st1">
-                    <i class="fa fa-phone sr-contact"></i>
-                    <span>(11) 98107-0647</span>
-                </div>
-                <div class="col st0 st1">
-                    <i class="fa fa-clock-o sr-contact"></i>
-                    <span>Atendimento 24h </span>
-                </div>
             <div class="collapse navbar-collapse " id="navbarExample">
                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <ins class="nav-link mos-table">Ligue Emergência 24h</ins>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{route('resultados')}}">Resultado de Exames</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('sobre')}}">Sobre </a>
                     </li>
@@ -167,8 +155,165 @@
                 <a class="btn btn-info btn-xl" href="{{route('sobre')}}">Explore nosso Site</a>
             </div>
         </div>
+        <div class="table-absolut">
+            <div class="table-fixed">
+                    <div class="col">
+                        <img src="/img/icon24.png"/>
+                        <h2>LIGUE EMERGÊNCIA 24H</h2>
+                    </div>
+                    <i class="fa fa-phone fa-5x"></i>
+                    <p>(11) 2561-2072</p>
+                    <p>(11) 98107-0544 (Nextel)</p>
+                    <p>(11) 98107-0647 (Nextel)</p>
+                    <p>Respondemos Whatsapp!</p>
+            </div>
+        </div>
     </header>
+    <div class="slide-jssor">
+        
+        <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-25.2.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
 
+            var jssor_1_SlideoTransitions = [
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+                if (containerWidth) {
+                    var MAX_WIDTH = 3000;
+
+                    var expectedWidth = containerWidth;
+
+                    if (MAX_WIDTH) {
+                        expectedWidth = Math.min(MAX_WIDTH, expectedWidth);
+                    }
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider loading skin double-tail-spin css */
+
+        .jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;stroke:#000;stroke-width:400;stroke-miterlimit:10;stroke-opacity:0.5;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/double-tail-spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/red.jpg" />
+                <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">TOUCH SWIPE SLIDER</div>
+                <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>
+                <div style="position:absolute;top:120px;left:650px;width:470px;height:220px;z-index:0;">
+                    <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;z-index:0;" src="img/c-phone-horizontal.png" />
+                    <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0; overflow:hidden;">
+                        <img data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:379px;height:213px;z-index:0;" src="img/c-slide-1.jpg" />
+                        <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:379px;width:379px;height:213px;z-index:0;" src="img/c-slide-3.jpg" />
+                    </div>
+                    <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0;" src="img/c-navigator-horizontal.png" />
+                    <img data-u="caption" data-t="2" style="position:absolute;top:476px;left:454px;width:63px;height:77px;z-index:0;" src="img/hand.png" />
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/purple.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/blue.jpg" />
+            </div>
+            <a data-u="any" href="https://www.jssor.com" style="display:none">bootstrap carousel</a>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:14px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:18px;height:18px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+        
+        
+    </div>
     <section class="bg-info" id="sobre">
         <div class="container">
             <div class="row">
@@ -351,25 +496,25 @@
                             <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
                         </form>
                         <br>
-                    <p>Rua Monte Cambarela, 101 Itaim Paulista - São Paulo - SP</p>
+                    <p>Rua Monte Camberela, 101 Itaim Paulista - São Paulo - SP</p>
                 </div>
                 <div class="col-7">
                      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5967d891ffddec6b"></script>
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farcadenoevetitaimpaulista%2F&tabs=timeline&width=900&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=674383036103265" width="900" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> 
                 </div>
                 <div class="col-4">
-                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 2561-2072</span>
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>&nbsp;(11) 2561-2072</span>
                     <br>
-                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 98107-0544 (tim)</span>
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>&nbsp;(11) 98107-0544 (Nextel)</span>
                     <br>
-                    <i class="fa fa-phone fa-2x sr-contact"></i><span>(11) 98107-0647 (tim)</span>
+                    <i class="fa fa-phone fa-2x sr-contact"></i><span>&nbsp;(11) 98107-0647 (Nextel)</span>
                     <br>
-                    <i class="fa fa-whatsapp fa-2x sr-contact"></i><span>Respondemos whats-up!</span>
+                    <i class="fa fa-whatsapp fa-2x sr-contact"></i><span>&nbsp;Respondemos Whatsapp!</span>
                     <br>
                     
                     <p>
                         <i class="fa fa-envelope-o fa-2x sr-contact"></i>
-                        <a href="mailto:your-email@your-domain.com">contato@arcadenoevet.com.br</a>
+                        <span>&nbsp;contato@arcadenoevet.com.br</span>
                     </p>
                 </div>
             </div>

@@ -13,9 +13,9 @@ hr { max-width: 50px; border-width: 3px; border-color: #F05F40; }
 
 hr.light { border-color: white; }
 
-a { color: #F05F40; -webkit-transition: all .2s; -moz-transition: all .2s; transition: all .2s; }
+ins, a { color: #F05F40; -webkit-transition: all .2s; -moz-transition: all .2s; transition: all .2s; text-decoration: none;}
 
-a:hover, a:focus { color: #f05f40; }
+ins, a:hover, a:focus { color: #f05f40; text-decoration: none;}
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
@@ -51,8 +51,6 @@ body { -webkit-tap-highlight-color: #222222; }
         .navbar-brand{font-weight: 700; text-transform: uppercase; color: #F05F40; font-family: 'Muli','Open Sans', 'Helvetica Neue', Arial, sans-serif;    
             svg{width:230px;height:70px;}
         }
-        .col{}
-        .collapse{width:290px;margin-left:0px;}
     }
 }
 
@@ -68,6 +66,19 @@ body { -webkit-tap-highlight-color: #222222; }
 
 
 
+//----
+#mainNav .navbar-nav > li.nav-item > ins.nav-link, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus { font-size: 13px; font-weight: 700; text-transform: uppercase; color: #222222;cursor:pointer;}
+
+#mainNav .navbar-nav > li.nav-item > ins.nav-link:hover, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus:hover { color: #F05F40; cursor:pointer;}
+
+#mainNav .navbar-nav > li.nav-item > ins.nav-link.active, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus.active { color: #F05F40 !important; background-color: transparent; cursor:pointer;}
+
+#mainNav .navbar-nav > li.nav-item > ins.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus.active:hover { background-color: transparent; cursor:pointer;}
+
+
+//--
+
+
 
 @media (min-width: 992px) { #mainNav { border-color: rgba(255, 255, 255, 0.3); background-color: transparent; }
   #mainNav .navbar-brand { color: rgba(255, 255, 255, 0.7); }
@@ -78,8 +89,33 @@ body { -webkit-tap-highlight-color: #222222; }
   #mainNav.navbar-shrink .navbar-brand { font-size: 16px; color: #F05F40; }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus { color: #f05f40; }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus { color: #222222; }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover { color: #F05F40; } }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover { color: #F05F40; } 
+
+    //----
+    #mainNav .navbar-nav > li.nav-item > ins.nav-link, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus { color: rgba(255, 255, 255, 0.7); cursor:pointer;}
+  #mainNav .navbar-nav > li.nav-item > ins.nav-link:hover, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus:hover { color: white; cursor:pointer;}
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:focus { color: #222222; cursor:pointer;}
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:focus:hover { color: #F05F40; cursor:pointer;} 
+    //---
+
+}
+
+//--
+header.masthead{
+    .table-absolut{position:absolute;display:none;
+        .table-fixed{width:500px;height:400px;position:fixed;background:#fff;left:30%;top:20%;z-index:100;
+            .col{background:#000066;}
+            .fa{color:#000066;}
+            p{color: #222222;font-size:20px;font-family: 'Muli','Open Sans', 'Helvetica Neue', Arial, sans-serif;}
+        }
+    }
+}
+//--
 header.masthead { position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/header.jpg"); background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+
+
+
 
 header.masthead .header-content { position: relative; width: 100%; padding: 100px 15px 100px; text-align: center; }
 

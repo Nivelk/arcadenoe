@@ -1,6 +1,9 @@
 (function($) {
     "use strict"; // Start of use strict
     $(".st1").css({"font-size":"12px","color":"#CCCCCC","fill":"#CCCCCC"});
+    $(".mos-table").click(function(){
+        $(".table-absolut").toggle();
+    });
     // Smooth scrolling using jQuery easing
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
