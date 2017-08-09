@@ -371,6 +371,14 @@
                         <span>&nbsp;contato@arcadenoevet.com.br</span>
                     </p>
                 </div>
+                <div class="w-100"></div>
+                <div class="col-12" style="padding-top:50px;">
+                    <center>
+                        <h3>PARCEIRO</h3>
+                        <hr>
+                        <img src="{{url('/img/header_logo.png')}}" alt="health fo pet"/>
+                    </center>
+                </div>
             </div>
         </div>
     </section>

@@ -127,7 +127,7 @@
                             <a class="nav-link" href="{{route('resultados')}}">Resultado de Exames</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('sobre')}}">Sobre </a>
+                            <a class="nav-link" href="{{route('sobre')}}">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('servicos')}}">Serviços</a>
