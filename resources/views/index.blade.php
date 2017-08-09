@@ -152,7 +152,7 @@
                     <hr>
                 <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
                 <p>A Arca de Noé é uma clínica completa, uma referência em cuidados veterinários ao seu animal de estimação!</p>
-                <a class="btn btn-info btn-xl" href="{{route('sobre')}}">Explore nosso Site</a>
+                <a class="btn btn-info btn-xl btn-blue" href="{{route('sobre')}}">Explore nosso Site</a>
             </div>
         </div>
         <div class="table-absolut">
@@ -176,13 +176,11 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading text-white">Sobre Nós</h2>
                     <hr class="light">
-                    <p class="text-faded">Agora, sob nova administração, a clínica veterinária Arca de Noé, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade.</p>
-                    <p class="text-faded">Possuímos uma variedade de serviços na área de saude animal, visando sempre a evolução da medicina veterinária, melhorando cada dia mais a qualidade de vida dos animais e proporcionando bem estar ao proprietário.</p>
-                    <p class="text-faded">Nossos profissionais estão sempre a postos para cuidar e salvar seu bichinho em situações extremas como:</p>
-                    <strong>
-                        <p class="text-faded">Atropelamentos, Hemorragias, Intoxicações/Envenenamentos, Queimaduras e mordeduras, extensas, Vômitos Sucessivos, Convulsões, Desmaios, Queda de altura, Perda de apetite prolongado em filhotes, Distenção Abdominal, Dificuldades em urinar ou defecar (Obstruções), Dor intensa, Parto prolongado, Prostração severa.
-                        </p>
-                    </strong>
+                    <p class="text-faded text-justify">Agora, sob nova administração, a clínica veterinária Arca de Noé, muito conhecida e localizada na região do Itaim Paulista em São Paulo, encontra-se em pleno funcionamento, proporcionando aos seus clientes um serviço de alta qualidade.</p>
+                    <p class="text-faded text-justify">Possuímos uma variedade de serviços na área de saude animal, visando sempre a evolução da medicina veterinária, melhorando cada dia mais a qualidade de vida dos animais e proporcionando bem estar ao proprietário.</p>
+                    <p class="text-faded text-justify">Nossos profissionais estão sempre a postos para cuidar e salvar seu bichinho em situações extremas como:</p>
+                    <p class="text-faded text-justify">Atropelamentos, Hemorragias, Intoxicações/Envenenamentos, Queimaduras e mordeduras extensas, Vômitos Sucessivos, Convulsões, Desmaios, Queda de altura, Perda de apetite prolongado em filhotes, Distenção Abdominal, Dificuldades em urinar ou defecar (Obstruções), Dor intensa, Parto prolongado, Prostração severa.
+                    </p>
                     <a class="btn btn-default btn-xl sr-button" href="{{route('servicos')}}">Nossos Trabalhos</a>
                 </div>
             </div>
@@ -241,7 +239,7 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    
+                                    Conteudo relacionado a Cardiologia texto curto mas relevante.
                                 </div>
                                 <div class="project-name">
                                     
@@ -349,7 +347,7 @@
                             <label for="mensagenMeng" class="">Mensagem:</label>
                             <textarea class="form-control form-control-lg" id="mensagenMeng" name="mensagem"></textarea>
                                 <br>
-                            <input class="btn btn-info btn-xl sr-button" type="submit" value="Enviar"/>
+                            <input class="btn btn-info btn-xl sr-button btn-blue" type="submit" value="Enviar"/>
                         </form>
                         <br>
                     <p>Rua Monte Camberela, 101 Itaim Paulista - São Paulo - SP</p>

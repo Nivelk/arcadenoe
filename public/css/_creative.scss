@@ -24,9 +24,10 @@ p { font-size: 16px; line-height: 1.5; margin-bottom: 20px; }
 .bg-primary { background-color: #F05F40 !important; }
 
 .bg-dark { color: white; background-color: #222222 !important; }
-
+.btn-blue{background:#000066;}
+.btn-blue:hover{background:#0000DD;}
 .text-faded { color: rgba(255, 255, 255, 0.7); }
-
+.text-justify{text-align: justify;}
 section { padding: 100px 0; }
 
 .section-heading { margin-top: 0; }
