@@ -1,78 +1,51 @@
 @extends('layouts.master')
-@section('content')
-    <header class="masthead">
-        <script src="/js/componentes/jssor/jssor.slider-25.2.1.min.js" type="text/javascript"></script>
-        <script src="/js/componentes/jssor/slide.master.js" type="text/javascript"></script>
-        <style>
-            .jssorl-004-double-tail-spin img {
-                animation-name: jssorl-004-double-tail-spin;
-                animation-duration: 1.2s;
-                animation-iteration-count: infinite;
-                animation-timing-function: linear;
-            }
-
-            @keyframes jssorl-004-double-tail-spin {
-                from {
-                    transform: rotate(0deg);
-                }
-
-                to {
-                    transform: rotate(360deg);
-                }
-            }
-        </style>
-            <div id="jssor_1" class="header_slide" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;overflow:hidden;visibility:hidden;padding-bottom:0px;">
-        <!-- Loading Screen -->
-            <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="/img/slide/double-tail-spin.svg" />
-            </div>
-        <!---Loading scren fim-->
-        <!--slides-->
-            <div data-u="slides" class="header_slide" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;overflow:hidden;margin-bottom:0px;">
-                <div>
-                    <img src="/img/header.jpg" style="background-size:cover;width:100%;height:auto;margin-bottom:0px;"/>
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <h1 id="homeHeading">Clínica Veterinária Arca de Noé</h1>
-                                <hr>
-                            <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
-                            <p>A Arca de Noé é uma clínica completa, uma referência em cuidados veterinários ao seu animal de estimação!</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="/img/slide/slide-campanha.jpg" style="background-size:cover;width:100%;height:auto;margin-bottom:0px;"/>
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <h1 id="homeHeading"></h1>
-                        </div>
-                    </div>
-                </div>
+@section('header')
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
                 
+                <header class="masthead">
+                    <img src="/img/header.jpg" style="background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+                    <div class="header-content">
+                            <div class="header-content-inner">
+                                <h1 id="homeHeading">Clínica Veterinária Arca de Noé</h1>
+                                    <hr>
+                                    <p>Clínica Veterinária Arca de Noé o melhor do atendimento <br>médico veterinário ao seu Pet de estimação</p>
+                                    <p>A Arca de Noé é uma clínica completa, uma referência em cuidados veterinários ao seu animal de estimação!</p>
+                            </div>
+                        <a class="btn btn-info btn-xl btn-blue" href="{{route('sobre')}}">Explore nosso Site</a>
+                    </div>
+                    <div class="table-absolut">
+                        <div class="table-fixed">
+                            <div class="col">
+                                <img src="/img/icon24.png"/>
+                                <h2>LIGUE EMERGÊNCIA 24H</h2>
+                            </div>
+                            <i class="fa fa-phone fa-5x"></i>
+                            <p>(11) 2561-2072</p>
+                            <p>(11) 98107-0544 (Nextel)</p>
+                            <p>(11) 98107-0647 (Nextel)</p>
+                            <p>Respondemos Whatsapp!</p>
+                        </div>
+                    </div>
+                </header>
             </div>
-        <!--slide fim--->
-            <script type="text/javascript">jssor_1_slider_init();</script>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
         </div>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <a class="btn btn-info btn-xl btn-blue" href="{{route('sobre')}}">Explore nosso Site</a>
-            </div>
-        </div>
-        <div class="table-absolut">
-            <div class="table-fixed">
-                <div class="col">
-                    <img src="/img/icon24.png"/>
-                    <h2>LIGUE EMERGÊNCIA 24H</h2>
-                </div>
-                <i class="fa fa-phone fa-5x"></i>
-                <p>(11) 2561-2072</p>
-                <p>(11) 98107-0544 (Nextel)</p>
-                <p>(11) 98107-0647 (Nextel)</p>
-                <p>Respondemos Whatsapp!</p>
-            </div>
-        </div>
-    </header>
-    
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+     <script src="/js/componentes/Swiper-3.4.2/dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    </script>
+@section('content')
     <section class="bg-info" id="sobre">
         <div class="container">
             <div class="row">

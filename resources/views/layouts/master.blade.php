@@ -34,18 +34,46 @@
         <link href="/js/componentes/magnific-popup/magnific-popup.css" rel="stylesheet">
     <!-- Custom styles for this template -->
         <link href="/css/creative.css" rel="stylesheet">
+        <link rel="stylesheet" href="/js/componentes/Swiper-3.4.2/dist/css/swiper.css">
+
         <title>@yield('title','Clinica Veterinária Itaim Paulista | Arca de Noé')</title>
     <!-- Temporary navbar container fix -->
         <style>
-        .navbar-toggler {
-            z-index: 1;
-        }
-
-        @media (max-width: 576px) {
-            nav > .container {
-                width: 100%;
+            .navbar-toggler {
+                z-index: 1;
             }
-        }
+
+            @media (max-width: 576px) {
+                nav > .container {
+                    width: 100%;
+                }
+            }
+            
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+            }
+            
+            /*
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+
+                /-*-\ Center slide text vertically /-*-/
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }*/
         </style>
     </head>
     <body id="page-top">
@@ -142,6 +170,7 @@
                 </div>
             </div>
         </nav>
+            @yield('header')
             @yield('content')
         <footer>
             <div class="container">
