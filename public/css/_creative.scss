@@ -102,7 +102,8 @@ body { -webkit-tap-highlight-color: #222222; }
 }
 
 //--
-header.masthead{
+header.masthead{position: relative; width: 100%; min-height: auto; text-align: center; color: white;
+    
     .table-absolut{position:absolute;display:none;
         .table-fixed{width:500px;height:400px;position:fixed;background:#fff;left:30%;top:20%;z-index:100;
             .col{background:#000066;}
@@ -112,7 +113,8 @@ header.masthead{
     }
 }
 //--
-header.masthead { position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/header.jpg"); background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+// background-image: url("../img/header.jpg"); background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 
 

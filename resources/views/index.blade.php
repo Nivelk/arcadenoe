@@ -40,6 +40,15 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                    <img src="/img/slide/slide-campanha.jpg" style="background-size:cover;width:100%;height:auto;margin-bottom:0px;"/>
+                    <div class="header-content">
+                        <div class="header-content-inner">
+                            <h1 id="homeHeading"></h1>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         <!--slide fim--->
             <script type="text/javascript">jssor_1_slider_init();</script>

@@ -81,13 +81,12 @@ body { -webkit-tap-highlight-color: #222222; }
   #mainNav .navbar-nav > li.nav-item > ins.nav-link:hover, #mainNav .navbar-nav > li.nav-item > ins.nav-link:focus:hover { color: white; cursor: pointer; }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:focus { color: #222222; cursor: pointer; }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > ins.nav-link:focus:hover { color: #F05F40; cursor: pointer; } }
+header.masthead { position: relative; width: 100%; min-height: auto; text-align: center; color: white; }
 header.masthead .table-absolut { position: absolute; display: none; }
 header.masthead .table-absolut .table-fixed { width: 500px; height: 400px; position: fixed; background: #fff; left: 30%; top: 20%; z-index: 100; }
 header.masthead .table-absolut .table-fixed .col { background: #000066; }
 header.masthead .table-absolut .table-fixed .fa { color: #000066; }
 header.masthead .table-absolut .table-fixed p { color: #222222; font-size: 20px; font-family: 'Muli','Open Sans', 'Helvetica Neue', Arial, sans-serif; }
-
-header.masthead { position: relative; width: 100%; min-height: auto; text-align: center; color: white; background-image: url("../img/header.jpg"); background-position: center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 header.masthead .header-content { position: relative; width: 100%; padding: 100px 15px 100px; text-align: center; }
 
