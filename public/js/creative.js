@@ -72,5 +72,10 @@
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
     });
-
+    
+    setInterval(function(){
+        var window_height = $(window).height();
+        $(".header_slide").css({"height": window_height+"px"});
+    },200);
+    
 })(jQuery); // End of use strict
