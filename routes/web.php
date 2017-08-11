@@ -11,37 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','RouteController@indexpage');
 
-Route::get('/contato',['as' => 'contato', function(){
+Route::get('/#page-top',['as' => 'home', 'uses' => 'RouteController@indexpage']);
+
+Route::get('/#sobre',['as' => 'sobre', 'uses' => 'RouteController@indexpage']);
+
+Route::get('/#servicos',['as' => 'servicos', 'uses' => 'RouteController@indexpage']);
+
+Route::get('/#galeria',['as' => 'galeria', 'uses' => 'RouteController@indexpage']);
+
+Route::get('/#contato', ['as' => 'contato', 'uses' => 'RouteController@indexpage']);
+
+Route::get('/resultados', ['as' => 'resultados', 'uses' => 'RouteController@resultados']);
+
+Route::get('/contato',function(){
     return view('contato');
-}]);
+});
 
 Route::post('/contato', ['as' => 'contato.send', function(){
     return Request::all();
-}]);
-
-Route::get('/#page-top',['as' => 'home', function(){
-     return view('index');
-}]);
-
-Route::get('/#sobre',['as' => 'sobre', function(){
-     return view('index');
-}]);
-
-Route::get('/#servicos',['as' => 'servicos', function(){
-     return view('index');
-}]);
-
-Route::get('/#galeria',['as' => 'galeria', function(){
-     return view('index');
-}]);
-
-Route::get('/#contato', ['as' => 'contato', function(){
-     return view('index');
-}]);
-Route::get('/resultados',['as' => 'resultados', function(){
-    return view('resultados');
 }]);
