@@ -29,6 +29,4 @@ Route::get('/contato',function(){
     return view('contato');
 });
 
-Route::post('/contato', ['as' => 'contato.send', function(){
-    return Request::all();
-}]);
+Route::post('/contato', ['as' => 'contato.send', 'uses' => 'RequestForm@postForm']);
