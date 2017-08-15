@@ -81,28 +81,28 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <div class="sr-icons"><img src="{{url('/img/icon-24h.png')}}"></div>
-                        <h3>Ortopedia</h3>
+                        <h3>Atendimento 24h</h3>
                         <p class="text-muted">Conteudo relacionado a ortopedia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <div class="sr-icons"><img src="{{url('/img/icon-cardiologia.png')}}"></div>
-                        <h3>Oncologia</h3>
+                        <h3>Exames Complementares</h3>
                         <p class="text-muted">Conteudo relacionado a oncologia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <div class="sr-icons"><img src="{{url('/img/icon-especialidade.png')}}"></div>
-                        <h3>Odontologia</h3>
+                        <h3>Atendimento Especializado</h3>
                         <p class="text-muted">Conteudo relacionado a ondontologia texto curto mas relevante.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <div class="sr-icons"><img src="{{url('/img/icon-internacao.png')}}"></div>
-                        <h3>Cardiologia</h3>
+                        <h3>Cirurgia Internação</h3>
                         <p class="text-muted">Conteudo relacionado a Cardiologia texto curto mas relevante.</p>
                     </div>
                 </div>
