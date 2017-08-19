@@ -106,6 +106,13 @@
                         <p class="text-muted">Conteudo relacionado a Cardiologia texto curto mas relevante.</p>
                     </div>
                 </div>
+                 <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <div class="sr-icons"><img src="{{url('/img/icon-internacao.png')}}"></div>
+                        <h3>Cirurgia Internação</h3>
+                        <p class="text-muted">Conteudo relacionado a Cardiologia texto curto mas relevante.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
